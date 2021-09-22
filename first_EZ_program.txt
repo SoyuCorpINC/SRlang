@@ -1,0 +1,35 @@
+com.say:yalayalyalyala zit
+y = usr.say:enter your name: 
+if y :: 'dave;com.say:hello
+if y :: 'dave;z = usr.say]enter equation:
+com.say:last known answer:
+com.say:|z|
+com.say:thank you here are some daves
+usr.say:press enter to receive your daves(!shipment takes a couple of seconds!)
+halt:3
+DSUM
+DSUM
+DSUM
+this is not a line
+x = usr.say:purge the daves?:
+if x :: 'uhuh;clearall
+if x :: 'nope;com.say:piss off
+com.say:yeah we dont care...
+com.say:here's a random number generator ;)
+rnd.say:10;100
+this is not a line too ;)
+x = usr.say:enter your file:
+com.say:for now that is all ;D cya
+com.say:bruhbruh(thank you for watching)
+halt:5
+com.say:JK we still gotta open your file
+access:|x|
+x = usr.say:enter filename again:
+y = usr.say:wanna open it again?:
+if y :: 'yeah;access:|x|
+com.say:penis time ;)
+com.say:s
+loop:SRnew.txt
+
+
+

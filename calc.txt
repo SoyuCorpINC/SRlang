@@ -1,0 +1,5 @@
+x = usr.say:enter an equation:
+com.say:|x|
+calc:|x|
+usr.say:press enter to continue
+loop:calc2.txt

@@ -1,0 +1,16 @@
+com.say:welcome to the SRlang menu test
+com.say:here I will show you how to design a basic menu program.
+com.say:heres a list of what you can access:
+com.say:1-webbrowser module
+com.say:2-calculator
+com.say:3-quit
+com.say:4-FileOpener
+com.say:5-return to menu
+y = usr.say:what do you wish to do?:
+if y :: '1;loop:browser.txt
+if y :: '2;loop:calc.txt
+if y :: '3;com.say:quitting...
+if y :: '4;loop:openfile.txt
+if y :: '5;loop:menuprgrm.txt
+com.say:ending program....
+stop;

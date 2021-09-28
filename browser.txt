@@ -1,0 +1,3 @@
+z = usr.say:enter the wensite u wanna access:
+browser:|z|
+loop:menuprgrm.txt

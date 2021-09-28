@@ -1,0 +1,6 @@
+x = usr.say:what is your name:
+com.say:hello,
+com.say:|x|
+com.say:welcome to the Menu program
+usr.say:press enter to continue
+loop:menuprgrm.txt

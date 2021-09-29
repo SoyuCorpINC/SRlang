@@ -1,0 +1,20 @@
+x = usr.say:enter a number:
+if x >: [6;com.say:its bigger then six
+if x :: [5;com.say:yep its 5
+if x <: [6;com.say:its smaller then six
+y = usr.say:enter a second number:
+if y :: [10;com.say:its ten
+if y >: [1;com.say:its bigger than 1
+if y <: [1;com.say:its smaller than 1
+z = usr.say:enter a third number:
+if z :: [10;com.say:its ten
+if z >: [1;com.say:its bigger than 1
+if z <: [1;com.say:its smaller than 1
+x = usr.say:enter a word
+com.say:|x|
+if x :: 'Algeria;com.say:algeria
+if x :: 'Morocco;com.say:u entered morocco
+x = usr.say:enter a number to subtract 5 off of
+com.say:|x|
+usr.say:
+loop:test4.txt

@@ -1,0 +1,5 @@
+x = usr.say:enter a number
+if x :: '0;com.say:you entered 0
+if x :: '1;loop:Truthmachine.sr
+com.say:checking code
+stop;

@@ -1,0 +1,27 @@
+com.say: = print function
+usr.say: input string(eval)
+usr.say:[ = input with numbers
+calc: = automatically calculates whatever is next to it
+x = = for user input(x = usr.say:)
+x :: = for everything except inputs(x :: 'algeria, x :: 50)
+if x :: 'something;execution = if statement
+if x :: [number;execution = if statement(with numbers)
+if x >: = if statement if x is bigger then number
+if x <: = if statement if x is smaller then number
+rnd.say:number1;number2 = generate a random number number between n1 and n2
+browser:|var| = open a page from a variable
+browser: = open web page through a string
+|var| = use this for com.say:, browser, etc for identifying variables
+DSUM = generates a random cat (^0x0^)
+stop; = quits the program
+loop: = (name is quite odd)runs a .sr file
+x += = add to variable
+x -= = removes from variable
+access:|var| = opens a file through a variable
+access: = opens a file from a string
+the only variables you can properly use right now are
+x,y,z
+meaning the language has a limited storage system for variables.
+But with future progress this might change.
+Right now the program is designed to be easily picked up by people,
+due to its more english-like syntax.

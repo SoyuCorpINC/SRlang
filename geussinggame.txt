@@ -1,16 +1,21 @@
-z = rnd.gen:1;10
-y = usr.say:[guess the number between 0 and 10:
-com.say:|y|
-if y :: |z;usr.say:you geussed it
-if y :: |z;loop:geussinggame.txt
-y = usr.say:[try again:
-if y :: |z;usr.say:you geussed it
-if y :: |z;loop:geussinggame.txt
-y = usr.say:[try once more
-com.say:|y|
-if y :: |z;usr.say:you geussed it
-if y :: |z;loop:geussinggame.txt
+y = rnd.gen:1;10
+x = usr.say:[guess the number between 0 and 10:
+if x :: |y;com.say:you geussed it
+if x :: |y;loop:geussinggame.txt
+if x >: |y;com.say:you went too big man
+if x <: |y;com.say:you went too small man
+x = usr.say:[try again:
+if x :: |y;com.say:you geussed it
+if x :: |y;loop:geussinggame.txt
+if x >: |y;com.say:you went too big man
+if x <: |y;com.say:you went too small man
+x = usr.say:[try once more
+com.say:|x|
+if x :: |y;com.say:you geussed it
+if x :: |y;loop:geussinggame.txt
+if x >: |y;com.say:you went too big man
+if x <: |y;com.say:you went too small man
 com.say:the number was:
-com.say:|z|
+com.say:|y|
 usr.say:...
 loop:geussinggame.txt
